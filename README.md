@@ -12,6 +12,11 @@ This project contains the implementation of 256 bit AES encryption which works o
 
 4. Node.js
 
+EDIT ********* : If receiving routines:EVP_DecryptFinal_ex:bad error or similar error when using decrpyt or encrpytion in nodejs 
+Solution : Just include CryptLib.js and manuel install depencies. Like ; 
+var cryptlib = require('./CryptLib.js'); 
+
+
 <b>Features:</b>
 
 1. Cross platform support. Encryption-Decryption works across C#, iOS, Android and Node.js. 
